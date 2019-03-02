@@ -36,8 +36,7 @@ tags:
 
 ![](http://img.hksite.cn/1473422366674)
 
-可以发现，每次Merge的时间复杂度是O(n)，加上一共合并log2N
-次，可以说是非常不错。
+可以发现，每次Merge的时间复杂度是O(n)，加上一共合并log2N次，可以说是非常不错。
 
 ## 1.3 归并排序代码
 
@@ -65,7 +64,9 @@ private static void merge(Comparable[] a, Comparable[] aux, int lo, int mid, int
 }
 ```
 
-上面3处assert的好处是： - 帮助发现逻辑上的错误 - 可以说明代码是做什么用的
+上面3处assert的好处是： 
+- 帮助发现逻辑上的错误 
+- 可以说明代码是做什么用的
 
 ![](http://img.hksite.cn/1473422732796)
 
@@ -92,7 +93,9 @@ public class Merge
 }
 ```
 
-注意： 1. 上面两处sort，一个是提供对外的接口，一个是对内的递归调用使用的。 2. 在对外接口中创建aux数组，而不要在内部调用的sort中创建aux数组，否则会出现bug。
+注意： 
+1. 上面两处sort，一个是提供对外的接口，一个是对内的递归调用使用的。 
+2. 在对外接口中创建aux数组，而不要在内部调用的sort中创建aux数组，否则会出现bug。
 
 ## 1.4 实际运行步骤：
 
@@ -143,7 +146,7 @@ private static void sort(Comparable[] a, Comparable[] aux, int lo, int hi)
 
 ![](http://img.hksite.cn/1473422642285)
 
-# 2.Bottom-up merge sort
+# 2.非递归的merge sort
 
 之前讲的mergesort是一个递归版本，这个是一个非递归的版本。 思想也很简单，就是依次对每隔1,2,4,8的子串进行merge。 比如： 第一次是[0]+[1] [2]+[3] [3]+[4] …… 第二次是[0-1] + [2-3] …… 第三次是[0-3] + [4-7] …… 直到排序完毕
 

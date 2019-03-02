@@ -17,7 +17,7 @@ tags:
 
 ## 1.1 基本步骤
 
-- 随机对数组进行洗牌操作（重要，直接影响性能）
+- 随机对数组进行洗牌操作（重要，直接影响性能），参考[洗牌算法](./sort3.md)
 - 对数组进行分组，保证对于元素a[i]
     - a[i]左边的元素全都小于a[i]
     - a[i]右边的元素全都大于a[i]
@@ -31,12 +31,12 @@ tags:
 - j从右到左扫描，直到发现一个a[j] < a[lo]
 - 然后交换a[i]和a[j]
 
-![](http://img.hksite.cn/1473832427451)
+![image-20190302124030890](http://img.hksite.cn/2019-03-02-044031.png)
 
 - 直到i和j交叉
 - 交换a[lo]和a[j]
 
-![](http://img.hksite.cn/1473832445126)
+![](http://img.hksite.cn/2019-03-02-044056.png)
 
 ```java
 private static int partition(Comparable[] a, int lo, int hi)
@@ -47,11 +47,9 @@ private static int partition(Comparable[] a, int lo, int hi)
         while(less(a[++i],a[lo]) && i < hi)
             if(i == hi)    break;
         while(less(a[lo],a[--j]))
-
             if(j == lo)    break;  //可以省略
         if(i > j)
             break;
-
         exch(a,i,j);
     }
     exch(a,lo,j);
@@ -68,18 +66,13 @@ private static int partition(Comparable[] a, int lo, int hi)
 
 ```java
 while(i < j)
-
-    {
+{
         while(less(a[i],a[lo]) && i < hi)
-
             i++;
         while(less(a[lo],a[j]))  //这里不用做边界判断因为a[lo]不会小于本身
-
             j--;
-
         exch(a[i],a[j]);
-
-    }
+  }
 ```
 
 然后是完整的快排算法：
@@ -89,27 +82,19 @@ public class Quick
 {
   private static int partition(Comparable[] a, int lo, int hi)
   {
-
 /* see previous slide */
-
   }
   public static void sort(Comparable[] a)
   {
-
       StdRandom.shuffle(a);  //Important
-
       sort(a, 0, a.length - 1);
-
   }
   private static void sort(Comparable[] a, int lo, int hi)
   {
       if (hi <= lo) return;
       int j = partition(a, lo, hi);
-
       sort(a, lo, j-1);
-
       sort(a, j+1, hi);
-
   }
 }
 ```
@@ -149,7 +134,7 @@ public class Quick
 
 ### 1.5.1 用插入排序提高在小数组中排序性能
 
-即使是快排，在小数组的时候，开销也是很大的，依然可以用MergeSort中的改进方案，在小数组的时候，采用InsertionSort来提高排序速度。CUTOFF通常取10个元素
+即使是快排，在小数组的时候，开销也是很大的，依然可以用MergeSort中的改进方案，在小数组的时候，采用InsertionSort来提高排序速度。通常取10个元素
 
 ![](http://img.hksite.cn/1473832864733)
 
@@ -179,9 +164,9 @@ public class Quick
 - 右边元素全大于它
 - 然后对其中**一个划分**继续找（取决于j是第几个元素），直到j = k
 
-![](http://img.hksite.cn/1473832995352)
+![image-20190302124443910](http://img.hksite.cn/2019-03-02-044444.png)
 
-## 2.3快速选择算法性能分析
+## 2.3 快速选择算法性能分析
 
 > 快速选择算法是线性的
 

@@ -8,8 +8,6 @@ tags:
 - 《常用算法和数据结构》
 ---
 
-![](http://img.hksite.cn/1474640016197)
-
 > 本系列文章主要介绍常用的算法和数据结构的知识，记录的是《Algorithms I/II》课程的内容，采用的是“算法（第4版）”这本红宝书作为学习教材的，语言是java。这本书的名气我不用多说吧？豆瓣评分9.4，我自己也认为是极好的学习算法的书籍。通过这系列文章，可以加深对数据结构和基本算法的理解（个人认为比学校讲的清晰多了），并加深对java的理解。
 
 # **1 符号表介绍和API**
@@ -37,7 +35,10 @@ tags:
 | **int Size()**                   | 返回集合中键值对的个数                            |
 | **Iterable Keys()**              | 返回集合中所有的键                                |
 
-Ps.有一些约定要提前说一下 - 值不为null - 如果key不存在，get()返回为null - put()会覆盖旧值
+Ps.有一些约定要提前说一下
+
+- 值不为null - 如果key不存在，get()返回为null 
+- put()会覆盖旧值
 
 通过这几个约定，我们可以把contain和delete函数简单实现。
 
@@ -81,9 +82,7 @@ Ps.有一些约定要提前说一下 - 值不为null - 如果key不存在，get(
 
 一般来说，我们做判断使用的( x == y ) 这个式子并不做类型检查。所以，我们在实现equals()的时候，要特别注意，它看起来很简单，但是想实现完美比较麻烦。
 
-比如一个日期的class，你可能会这样实现
-
-`equals()`
+比如一个日期的class，你可能会这样实现`equals()`
 
 ```java
 public class Date implements Comparable<Date>
@@ -120,15 +119,15 @@ public class Date implements Comparable<Date>
        ...
        public boolean equals(Object y)
        {
-    ​      if (y == this) return true;
-    ​      if (y == null) return false;
-    ​      if (y.getClass() != this.getClass())
-    ​         return false;
-    ​      Date that = (Date) y;
-    ​      if (this.day   != that.day  ) return false;
-    ​      if (this.month != that.month) return false;
-    ​      if (this.year  != that.year ) return false;
-    ​      return true;
+          if (y == this) return true;
+          if (y == null) return false;
+          if (y.getClass() != this.getClass())
+             return false;
+          Date that = (Date) y;
+          if (this.day   != that.day  ) return false;
+          if (this.month != that.month) return false;
+          if (this.year  != that.year ) return false;
+          return true;
        }
     }
 ```
