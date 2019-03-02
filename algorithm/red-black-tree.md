@@ -213,4 +213,4 @@ private Node put(Node h, Key key, Value val)
 
 ![](http://img.hksite.cn/1464144485406)
 
-**红黑树更吸引人的一点在于，基本除了put和delete算法比较复杂，其他的代码，都可以直接使用二叉树的代码。
+红黑树更吸引人的一点在于，基本除了put和delete算法比较复杂，其他的代码，都可以直接使用二叉树的代码。

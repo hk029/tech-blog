@@ -36,5 +36,3 @@
 [平衡查找树(2)——红黑树（附动画）](./algorithm/red-black-tree.md)
 
 
-
-##

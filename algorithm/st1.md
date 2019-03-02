@@ -112,7 +112,6 @@ public class Date implements Comparable<Date>
     - 如果比较的是一个对象，用equals()
     - 如果比较的是一个数组，对Arrays.equals(a, b)，而不是a.equals(b)
 ```java
-
     public final class Date implements Comparable<Date>
     {
        private final int month;
