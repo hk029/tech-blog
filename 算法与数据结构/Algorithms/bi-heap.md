@@ -2,11 +2,13 @@
 title: 优先队列(2)——二叉堆
 date: 2016-04-29
 categories: 
-- 技术生活
-- 数据结构
+- 算法与数据结构
+- Algorithms
 tags: 
 - 《常用算法和数据结构》
+init: 1
 ---
+
 
 # 二叉堆
 
@@ -143,3 +145,4 @@ public class MaxPQ<Key extends Comparable<Key>> {
 这有很多好处，但是坏处就是如果你需要改变值必须要新建一个对象。
 
 ![](http://img.hksite.cn/2019-03-01-084622.jpg)
+    

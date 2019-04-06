@@ -2,11 +2,13 @@
 title: 元素排序(1)——简单排序
 date: 2016-05-10
 categories: 
-- 技术生活
-- 数据结构
+- 算法与数据结构
+- Algorithms
 tags: 
 - 《常用算法和数据结构》
+init: 1
 ---
+
 
 > 本系列文章主要介绍常用的算法和数据结构的知识，记录的是《Algorithms I/II》课程的内容，采用的是“[算法（第4版）](https://book.douban.com/subject/19952400/)”这本红宝书作为学习教材的，语言是java。这本书的名气我不用多说吧？豆瓣评分9.4，我自己也认为是极好的学习算法的书籍。
 >
@@ -154,3 +156,5 @@ public class Insertion
 
 ![](http://img.hksite.cn/2019-03-01-072205.jpg)
 
+
+    
