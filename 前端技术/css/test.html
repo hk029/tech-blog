@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<style>
+    .solid-circle {
+    height:100px;/*是width的一半*/
+    width:100px;
+    background:#9da;
+    border-radius:50%;/*半径至少设置为height的值*/
+}
+
+.solid-semicircle {
+    height:50px;/*是width的一半*/
+    width:100px;
+    background:#9da;
+    border-radius:50px 50px 0 0;/*半径至少设置为height的值*/
+}
+
+.nav{
+
+  width:560px;
+
+  height: 50px;
+
+  font:bold 0/50px Arial;
+
+  text-align:center;
+
+  margin:40px auto 0;
+
+  background: #f65f57;
+
+}
+
+.nav li{
+
+position:relative;
+
+display:inline-block; /*重要，不然无法在一行显示*/
+
+padding:0 16px;
+
+font-size: 13px;
+
+text-shadow:1px 2px 4px rgba(0,0,0,.5);
+
+list-style: none outside none;
+
+}
+
+.nav a{
+
+color:white;
+
+}
+
+.nav a:hover{
+
+color: yellow;
+
+font-size: 120%;
+
+}
+
+
+</style>
+</head>
+<body>
+        <div class="solid-circle " ></div>
+        <div style="height: 20px; background: red;" />
+        <div class="solid-semicircle " />
+        <div style="height: 20px" />
+        <div class="solid-left-semicircle"/>
+</body>
+</html>
