@@ -1,12 +1,12 @@
 ---
-title: es6笔记
+title: ES6笔记
 date: 2018-11-29
 categories: 
 - 前端技术
 - javascript
 tags: 
-- css
-- flex
+- javascript
+- es6
 init: 1
 ---
 > 个人es6总结，大多是看阮老师的博客，总结了自己认为重要的部分
