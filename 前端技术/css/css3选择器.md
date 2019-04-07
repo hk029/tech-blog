@@ -1,11 +1,14 @@
 ---
 title: css3选择器
 date: 2016-10-14
-tags:
+categories: 
+- 前端技术
+- css
+tags: 
 - css
 - css3
+init: 1
 ---
-
 css3选择器引入了通配符的概念，和jQuery一样可以使用^，$操作，用法也类似
 
 ## 使用说明：

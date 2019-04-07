@@ -1,13 +1,14 @@
 ---
 title: 【python爬虫】入门基本知识
 date: 2016-04-14
+categories: 
+- 后端技术
+- python
 tags: 
 - python
 - 爬虫
+init: 1
 ---
-
-
-
 # 写在开头
 
 这阵子需要用爬虫做点事情，于是系统的学习了一下python爬虫，觉得还挺有意思的，比我想象中的能干更多的事情，这里记录下学习的经历。
@@ -225,4 +226,4 @@ print content2
     content 1
     content 2
     content 3
-    Hello,        my        world!  
+    Hello,        my        world!

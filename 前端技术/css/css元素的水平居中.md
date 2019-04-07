@@ -1,12 +1,15 @@
 ---
 title: 元素水平居中
 date: 2016-09-20
-tags:
+categories: 
+- 前端技术
 - css
-- 排版布局
+tags: 
+- css
 - 常用css技巧
+- 排版布局
+init: 1
 ---
-
 水平居中是在网页设计中非常常用的，但是使用起来却有很多麻烦的。很多人可能只知道居中可以用`text-align：center`来设置，这可真不够用了~~下面来教你几个居中的小妙招
 
 # 内联元素 ：text-align:center

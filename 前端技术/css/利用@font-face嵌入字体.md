@@ -1,12 +1,15 @@
 ---
 title: 利用@font-face嵌入字体
 date: 2016-10-29
+categories: 
+- 前端技术
+- css
 tags: 
 - css
-- font
 - 常用css技巧
+- font
+init: 1
 ---
-
 # @font-face
 @font-face能够加载服务器端的字体文件，让浏览器端可以显示用户电脑里没有安装的字体。
 

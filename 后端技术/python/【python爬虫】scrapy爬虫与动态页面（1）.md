@@ -1,11 +1,14 @@
 ---
 title: 【python爬虫】scrapy爬虫与动态页面（1）
 date: 2016-05-13
+categories: 
+- 后端技术
+- python
 tags: 
 - python
 - 爬虫
+init: 1
 ---
-
 ## 5-14更新
 注意：目前拉勾网换了json结构，之前是`content` - `result` 现在改成了`content`- `positionResult` - `result`,所以大家写代码的时候要特别注意加上一层`positionResult`的解析。
 
@@ -161,4 +164,3 @@ time.time()
 ## 修改parse()
 把数据加入item，然后yield，大家应该很熟悉了
 ![Alt text](http://img.hksite.cn/2019-03-25-031715.png)
-

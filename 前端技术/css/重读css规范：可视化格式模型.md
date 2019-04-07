@@ -1,3 +1,13 @@
+---
+title: 重读css规范：可视化格式模型
+date: 2019-04-07
+categories: 
+- 前端技术
+- css
+tags: 
+- css
+init: 1
+---
 # 重读css规范：可视化格式模型
 
 > 本文是重读css规范——可视化格式模型部分的笔记，增加了一些个人见解和扩展。
@@ -211,4 +221,3 @@ This is anonymous text after the SPAN.
 
 
 **注意**：尽管['display'](http://www.ayqy.net/doc/css2-1/visuren.html#propdef-display)的[初始值](http://www.ayqy.net/doc/css2-1/about.html#initial-value)是'inline'，用户代理[默认样式表](http://www.ayqy.net/doc/css2-1/cascade.html#default-style-sheet)中的规则可能会[重写](http://www.ayqy.net/doc/css2-1/cascade.html)该值。见附录中HTML 4的[样例样式表](http://www.ayqy.net/doc/css2-1/sample.html)
-

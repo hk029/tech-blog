@@ -1,11 +1,14 @@
 ---
 title: 【python爬虫】实战——5分钟做个图片自动下载器
 date: 2016-04-19
+categories: 
+- 后端技术
+- python
 tags: 
 - python
 - 爬虫
+init: 1
 ---
-
 之前介绍了那么多基本知识，大家也估计手痒了。想要实际做个小东西来看看，毕竟：
 >talk is cheap show me the code!
 
@@ -205,4 +208,3 @@ for each in pic_url:
 ```
 
 好了，享受你第一个图片下载爬虫吧！！
-

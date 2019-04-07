@@ -1,3 +1,13 @@
+---
+title: mongodb日志文件自动分割
+date: 2019-04-07
+categories: 
+- 数据库
+- mongoDB
+tags: 
+- mongoDB
+init: 1
+---
 今天突然接到报警，说服务器磁盘空间不够，很是诧异，最近也没做什么，以为是鹰眼下载的项目数据过大，结果发现并非如此。真正占用空间的大头竟然是mongodb的日志，一个 文件直接占了40G，要知道我mongodb中的数据也就600m。
 
 ![](http://img.hksite.cn/2019-03-26-082017.jpg)
@@ -109,4 +119,3 @@ $ crontab -l
 * 10 * * * doSomething   # 每天10点执行
 * */2 * * * doSomething   # 每2小时执行
 ```
-

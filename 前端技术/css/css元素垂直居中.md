@@ -1,12 +1,15 @@
 ---
 title: css如何实现垂直居中
 date: 2017-03-07
-tags:
+categories: 
+- 前端技术
 - css
-- 排版布局
+tags: 
+- css
 - 常用css技巧
+- 排版布局
+init: 1
 ---
-
 ## padding
 
 有时候居中仅仅是因为上下的padding一样而已。

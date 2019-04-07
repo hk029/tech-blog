@@ -1,11 +1,14 @@
 ---
 title: 【python爬虫】scrapy安装与真的快速上手——爬取豆瓣9分榜单识
 date: 2016-04-21
+categories: 
+- 后端技术
+- python
 tags: 
 - python
 - 爬虫
+init: 1
 ---
-
 # 写在开头
 现在scrapy的安装教程都明显过时了，随便一搜都是要你安装一大堆的依赖，什么装python（如果别人连python都没装，为什么要学scrapy....）wisted， zope interface，pywin32，甚至还有要装lxml的。人家现在都是Python自带的了。现在scrapy的安装真的很简单的好不好！
 
@@ -274,6 +277,3 @@ yield scrapy.http.Request(url,callback=self.parse)
 好了，这个豆瓣9分图书的爬虫结束了，相信通过这个例子，scrapy也差不多能上手，至少编写一般的爬虫是so easy了！
 
 代码我放github上了，可以参考：[https://github.com/hk029/doubanbook](https://github.com/hk029/doubanbook)
-
-
-

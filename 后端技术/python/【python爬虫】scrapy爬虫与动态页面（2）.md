@@ -1,11 +1,14 @@
 ---
 title: 【python爬虫】scrapy爬虫与动态页面（2）
 date: 2016-05-16
+categories: 
+- 后端技术
+- python
 tags: 
 - python
 - 爬虫
+init: 1
 ---
-
 >上次挖了一个坑，今天终于填上了，还记得之前我们做的拉勾爬虫吗？那时我们实现了一页的爬取，今天让我们再接再厉，实现多页爬取，顺便实现职位和公司的关键词搜索功能。
 
 之前的内容就不再介绍了，不熟悉的建议先去看之前的文章吧。[【图文详解】scrapy爬虫与动态页面——爬取拉勾网职位信息（1）](https://www.jianshu.com/p/f030cba076a2)
@@ -116,6 +119,3 @@ yield scrapy.http.FormRequest('http://www.lagou.com/jobs/positionAjax.json?px=ne
 
 
 这个工程我上传到了github，有兴趣的同学可以下载下来看看：[https://github.com/hk029/LagouSpider](https://github.com/hk029/LagouSpider)
-
-
-    

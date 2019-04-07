@@ -1,9 +1,13 @@
 ---
 title: css制作一个导航菜单
 date: 2016-11-02
+categories: 
+- 前端技术
+- 小练手
 tags: 
 - css
 - 小练手
+init: 1
 ---
 # 预计效果
 ![](http://img.hksite.cn/2019-04-05-055925.png)
@@ -127,4 +131,3 @@ tags:
 
 
 ![your text](http://img.hksite.cn/1473814464473)
-

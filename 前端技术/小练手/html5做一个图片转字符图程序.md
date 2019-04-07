@@ -1,12 +1,15 @@
 ---
 title: 用html5做一个图片转字符图
 date: 2017-04-11
-tags:
+categories: 
 - 前端技术
 - 小练手
+tags: 
+- 小练手
+- 前端技术
 - 项目
+init: 1
 ---
-
 放在以前，纯用前端js操作图片还是不可想象的，现在随着html5的发展，开放了文件api和canvas之后，操作图片变成了可能。
 
 测试地址：[点击测试](http://hksite.cn/project/img2ch.html)
@@ -180,4 +183,3 @@ var ctx = cv.getContext('2d')，
 ![your text](http://img.hksite.cn/1491824297741)
 
 ![your text](http://img.hksite.cn/1491824428651)
-

@@ -1,3 +1,12 @@
+---
+title: linux查看磁盘使用情况
+date: 2019-04-07
+categories: 
+- Linux
+tags: 
+- Linux
+init: 1
+---
 ## linux查看文件大小，磁盘使用情况
 
 ## 查看硬盘使用情况

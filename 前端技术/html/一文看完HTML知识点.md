@@ -1,8 +1,12 @@
 ---
 title: 一文看完HTML知识点
 date: 2019-01-20
+categories: 
+- 前端技术
+- html
 tags: 
 - html
+init: 1
 ---
 [TOC]
 

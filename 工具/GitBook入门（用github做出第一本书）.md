@@ -5,8 +5,8 @@ categories:
 - 工具
 tags: 
 - gitbook
+init: 1
 ---
-
 我最近接触到gitbook，发现它支持markdown和git，刚好把我之前在github上的笔记可以生成一本书，于是我就开始着手捣鼓gitbook，一下午的时间就弄的差不多了，说明这个东西还是挺容易的，可以看看我的书：[《LeetBook（LeetCode详解）》](https://www.gitbook.com/book/hk029/leetbook/details)。
 
 比较建议直接在github上部署你的框架，然后再导入gitbook。
@@ -117,4 +117,3 @@ tags:
 最后，可以在自己的书的主页点击read看看效果
 
 ![Alt text](http://img.hksite.cn/2019-03-29-065130.png)
-

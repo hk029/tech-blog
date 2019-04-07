@@ -1,9 +1,13 @@
 ---
 title: text-overflow和word-wrap处理文本溢出问题
 date: 2016-10-20
+categories: 
+- 前端技术
+- css
 tags: 
 - css
 - 常用css技巧
+init: 1
 ---
 # 
 
@@ -101,4 +105,3 @@ overflow: hidden;
     background:#aaa;
 }
 ```
-

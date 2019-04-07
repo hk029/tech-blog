@@ -3,12 +3,12 @@ title: 【cVim】—Chrome上更强大的vim插件
 date: 2016-04-29
 categories: 
 - 工具
-- vim 
-tags: 
-- 工具
 - vim
+tags: 
+- vim
+- 工具
+init: 1
 ---
-
 cVim——Chrome上更强大的vim插件
 ---
 # 介绍
@@ -131,4 +131,3 @@ map j scrollUp
 |gy|复制网页链接|
 |p|当前页面打开复制的链接|
 |P|新标签页打开复制的链接|
-

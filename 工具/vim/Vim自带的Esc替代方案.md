@@ -2,13 +2,12 @@
 title: Vim自带的Esc替代方案
 date: 2016-09-28
 categories: 
-- 技术生活
 - 工具
+- vim
 tags: 
 - vim
+init: 1
 ---
-
-
 <h1>vim离开模式</h1>
 
 很多人只知道vim的离开是用<code>Esc</code>，但是很多人使用了也会发现，这是一个挺反人类的按键，因为目前的键盘<code>Esc</code>都是设置在最左上角，和原来的键盘区别很大，而恰好<code>Esc</code>又是vim里使用频率很高的按键，这无疑违背了vim的高效性。vim按键设计很程度上就是希望操作者的手可以完全不离开键盘( 比如用hjkl取代上下左右键 )，但是很少有人能按<code>Esc</code>而手不离开键盘（长指猿除外）
@@ -43,4 +42,3 @@ tags:
 </code></pre>
 
 <img src="http://img.hksite.cn/1475046547474" alt="your text" />
-    

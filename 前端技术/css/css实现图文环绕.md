@@ -1,12 +1,15 @@
 ---
 title: css实现图文环绕
 date: 2017-03-08
-tags:
+categories: 
+- 前端技术
 - css
-- 排版布局
+tags: 
+- css
 - 常用css技巧
+- 排版布局
+init: 1
 ---
-
 经常我们需要实现一个效果就是文字和图片的混排，需要实现文本环绕效果，这个效果其实是float的一个特性之一，利用float可以轻松实现文本环绕效果。
 
 ## 实现方法
@@ -41,4 +44,3 @@ margin:0px 20px 10px 0px;
 ## 效果
 
 ![your text](<http://img.hksite.cn/1488947602103> "")
-

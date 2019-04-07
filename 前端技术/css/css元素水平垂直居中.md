@@ -1,13 +1,15 @@
 ---
 title: css元素水平垂直居中
 date: 2017-03-07
-tags:
+categories: 
+- 前端技术
 - css
-- 排版布局
+tags: 
+- css
 - 常用css技巧
+- 排版布局
+init: 1
 ---
-
-
 ## 知道大小？
 
 直接使用`top,left`:50%，然后margin偏移一下就行

@@ -1,11 +1,14 @@
 ---
 title: 关于css实现上下左右小箭头
 date: 2016-10-29
+categories: 
+- 前端技术
+- css
 tags: 
 - css
 - 常用css技巧
+init: 1
 ---
-
 ## 箭头应用
 
 箭头在网页中的应用非常之广泛，基本所有的网站都会有箭头，比如导航栏：![your text](http://img.hksite.cn/1489468797768)

@@ -1,10 +1,14 @@
 ---
+title: css3背景新增属性
 date: 2016-09-13
-tags:
+categories: 
+- 前端技术
+- css
+tags: 
 - css
 - css3
+init: 1
 ---
-
 # 设置背景图片的起始位置
 
 ## background-origin

@@ -1,10 +1,14 @@
 ---
+title: 纯css3实现标签页切换
 date: 2017-03-08
-tags:
+categories: 
+- 前端技术
+- css
+tags: 
 - css
 - 小练手
+init: 1
 ---
-
 ## 原理
 
 利用`:target`属性，每个标签都是一个a标签，链接到不同的页面锚点。当点击选中的时候，触发`:target`属性，没选择的时候触发`:not(:target)`属性。
@@ -96,4 +100,3 @@ ul a:hover{
 ![your text](<http://img.hksite.cn/1488885804298> "")
 
 ![your text](<http://img.hksite.cn/1488885823578> "")
-

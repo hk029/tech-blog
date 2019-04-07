@@ -8,8 +8,6 @@ tags:
 - mongoDB
 init: 1
 ---
-
-
 # MongoDB是一个文档数据库
 
 官方反复强调说：MongoDB是一个文档数据库，这是因为在MongoDB中的**记录**（record）都是一个**文档**(document），它是数据库中的最小数据集合，由字段和值对组成的数据结构。其中字段的值可以包括其他文档，数组和文档数组。
@@ -334,4 +332,4 @@ db.class.replaceOne( {"name":"ZhangQiang"},{"name":"ZhangQiang", "Age": "13"})
 
 
 
-​    
+​

@@ -1,10 +1,14 @@
 ---
+title: vertical-align导致inline-block塌陷问题
 date: 2017-03-11
-tags:
+categories: 
+- 前端技术
+- css
+tags: 
 - css
 - 布局排版
+init: 1
 ---
-
 有很多喜欢用inline-block做行内排版对齐，这本来是一个很不错的方式，但是今天在做一个布局的时候，发现一个奇怪的现象，就是当块中输入文字后，整个布局就发生了诡异的一幕：第一个方块下移了，而且怎么都回不来。
 
 ![your text](<http://img.hksite.cn/1489145950951> "")
@@ -18,4 +22,3 @@ tags:
 ![your text](<http://img.hksite.cn/1489146431518> "")
 
 ![your text](<http://img.hksite.cn/1489146391574> "")
-

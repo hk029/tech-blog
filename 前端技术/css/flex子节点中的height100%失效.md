@@ -1,11 +1,14 @@
 ---
 title: flex子节点中的height:100%失效
 date: 2018-10-29
+categories: 
+- 前端技术
+- css
 tags: 
 - css
 - flex
+init: 1
 ---
-
 > 注：7x新版本的chrome已经没有这个问题，但是safari 12.0.3还可以复现
 
 ## 起因
@@ -142,4 +145,3 @@ https://www.w3.org/TR/2017/CR-css-flexbox-1-20171019/#main-size
   position: absolute;
 }
 ```
-

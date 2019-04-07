@@ -1,10 +1,13 @@
 ---
 title: 关于delete
 date: 2018-10-29
+categories: 
+- 前端技术
+- javascript
 tags: 
-- javascript 
+- javascript
+init: 1
 ---
-
 # 
 
 源于作者在阅读，斯托亚诺夫的《面向对象的Javascript》，这本书《函数》一章，中发现的问题。文中说
@@ -22,7 +25,7 @@ tags:
   "undefined"
 ```
 但是问题是，这里`delete`不应该成功。你在Chrome上测试也不会成功，但是Firefox上确实可以这么干（所以作者估计也是在FireFox上做了一个简单的测试）
-![20180918153723932560721.png](http://easyread.top/20180918153723932560721.png)
+![20180918153723932560721.png](http://hksite.cn/20180918153723932560721.png)
 
 由此，引入了一个很有意思的话题：delete到底是如何工作的？
 

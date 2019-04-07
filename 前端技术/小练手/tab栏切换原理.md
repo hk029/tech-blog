@@ -1,11 +1,14 @@
 ---
 title: tab栏切换原理
 date: 2017-03-16
-tags:
+categories: 
 - 前端技术
 - 小练手
+tags: 
+- 小练手
+- 前端技术
+init: 1
 ---
-
 # tab栏切换原理
 
 ## 原理
