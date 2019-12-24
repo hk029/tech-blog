@@ -8,6 +8,7 @@ tags:
 - css
 init: 1
 ---
+
 # 常用的块状元素
 `<div>、<p>、<h1>...<h6>、<ol>、<ul>、<dl>、<table>、<address>、<blockquote> 、<form>`
 设置display:block就是将元素显示为块级元素。如下代码就是将内联元素a转换为块状元素，从而使a元素具有块状元素特点。

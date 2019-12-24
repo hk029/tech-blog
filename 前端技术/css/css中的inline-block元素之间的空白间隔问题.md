@@ -8,6 +8,7 @@ tags:
 - css
 init: 1
 ---
+
 ## 问题
 
 有时候，我们需要将`<li>`横向排列，而又为了能设置其宽度和高度，为其设置`display:inline-block`，相邻`<li>`之间会出现4px的空白间隔（根据浏览器不同），不是margin也不是padding。

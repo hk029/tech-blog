@@ -10,6 +10,7 @@ tags:
 - font
 init: 1
 ---
+
 # @font-face
 @font-face能够加载服务器端的字体文件，让浏览器端可以显示用户电脑里没有安装的字体。
 

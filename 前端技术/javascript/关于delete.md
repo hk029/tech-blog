@@ -9,6 +9,7 @@ tags:
 init: 1
 ---
 
+
 源于作者在阅读，斯托亚诺夫的《面向对象的Javascript》，这本书《函数》一章，中发现的问题。文中说
 
 > function is treated as a normal variable—it can be copied to a different variable and even deleted.
