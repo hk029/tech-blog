@@ -1,4 +1,5 @@
 ---
+data: 2018-02-01
 title: ssh免密码登录远程主机
 tags:
 - linux

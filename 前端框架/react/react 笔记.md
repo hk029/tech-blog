@@ -4,7 +4,7 @@ categories:
 - 前端框架
 - react
 title: react 笔记
----# react 笔记
+---
 
 ## 定义组件
 
