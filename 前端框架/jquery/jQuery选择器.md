@@ -1,15 +1,13 @@
 ---
-date: 2019-03-31
+date:  2016-12-01
 categories: 
 - 前端框架
 - jquery
-title: jQuery选择器
----
----
-date: 2016-12-01
 tags:
 - jquery
+title: jQuery选择器
 ---
+
 <h2>$符号</h2>
 
 <code>$</code>是著名的jQuery符号。实际上，jQuery把所有功能全部封装在一个全局变量jQuery中，而<code>$</code>也是一个合法的变量名，它是变量jQuery的别名：
