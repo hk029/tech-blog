@@ -3,7 +3,7 @@ date: 2016-12-12
 categories: 
 - 前端技术
 - javascript
-tags:
+tags: 
 - javascript精粹
 - Javascript
 title: javascript精粹（3）-函数
